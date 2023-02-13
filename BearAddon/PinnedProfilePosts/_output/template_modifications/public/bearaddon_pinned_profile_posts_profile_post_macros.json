@@ -1,0 +1,9 @@
+{
+    "template": "profile_post_macros",
+    "description": "Add a pin icon next to the post date on pinned profile posts",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "/<xf:date time=\"\\$profilePost\\.post_date\" \\/>(<\\/a>)?<\\/li>/",
+    "replace": "$0\n<xf:if is=\"$profilePost.bear_addon_pinned_profile_posts_sticky\">\n\t<li>\n\t\t<i class=\"structItem-status structItem-status--sticky\" aria-hidden=\"true\" title=\"{{ phrase('sticky')|for_attr }}\"></i>\n\t\t<span class=\"u-srOnly\">{{ phrase('sticky') }}</span>\n\t</li>\n</xf:if>"
+}

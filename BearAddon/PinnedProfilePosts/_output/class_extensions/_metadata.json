@@ -1,0 +1,14 @@
+{
+    "XF-Entity-ProfilePost_BearAddon-PinnedProfilePosts-XF-Entity-ProfilePost.json": {
+        "hash": "fcc0b8284d9bc8f219fc6ac4fb07273d"
+    },
+    "XF-Pub-Controller-Member_BearAddon-PinnedProfilePosts-XF-Pub-Controller-Member.json": {
+        "hash": "e2a3d525647c6269de1bacc4feb5a085"
+    },
+    "XF-Pub-Controller-ProfilePost_BearAddon-PinnedProfilePosts-XF-Pub-Controller-ProfilePost.json": {
+        "hash": "f0d6a5993674fd428f6735ab3b3a75a7"
+    },
+    "XF-Service-ProfilePost-Editor_BearAddon-PinnedProfilePosts-XF-Service-ProfilePost-Editor.json": {
+        "hash": "9dfbc508bc0c7c526b474c75aae7fbb0"
+    }
+}

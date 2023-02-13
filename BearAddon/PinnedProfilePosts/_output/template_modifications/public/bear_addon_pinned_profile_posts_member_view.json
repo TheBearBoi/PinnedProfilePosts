@@ -1,0 +1,9 @@
+{
+    "template": "member_view",
+    "description": "Edit the member view, such that sticky posts are shown at the top of the post list",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:if is=\"$profilePosts is not empty\">",
+    "replace": "<xf:if is=\"$stickyProfilePosts is not empty\">\n\t<xf:css src=\"structured_list.less\" />\n\t<xf:foreach loop=\"$stickyProfilePosts\" value=\"$stickyProfilePost\">\n\t\t<xf:macro template=\"profile_post_macros\"\n\t\t\t\t  name=\"{{ $stickyProfilePost.message_state == 'deleted' ? 'profile_post_deleted' : 'profile_post' }}\"\n\t\t\t\t  arg-attachmentData=\"{$profilePostAttachData.{$stickyProfilePost.profile_post_id}}\"\n\t\t\t\t  arg-profilePost=\"{$stickyProfilePost}\"/>\n\t</xf:foreach>\n</xf:if>\n$0"
+}

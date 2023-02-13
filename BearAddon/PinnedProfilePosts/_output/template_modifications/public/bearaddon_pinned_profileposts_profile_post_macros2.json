@@ -1,0 +1,9 @@
+{
+    "template": "profile_post_macros",
+    "description": "Adding an option to allow users to stick/unstick profile posts if they have the permission to.",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:if is=\"$profilePost.canDelete('soft')\">",
+    "replace": "<xf:if is=\"$profilePost.canStickUnstick()\">\n\t<a href=\"{{ link('profile-posts/quick-stick', $profilePost) }}\"\n\t   class=\"actionBar-action actionBar-action--stick actionBar-action--menuItem\"\n\t   data-xf-click=\"switch\">\n\t\t<xf:if is=\"$profilePost.bear_addon_pinned_profile_posts_sticky\">\n\t\t\t{{ phrase('unstick_profile_post') }}\n\t\t\t<xf:else />\n\t\t\t{{ phrase('stick_profile_post') }}\n\t\t</xf:if>\n\t</a>\n\t<xf:set var=\"$hasActionBarMenu\" value=\"{{ true }}\" />\n</xf:if>\n$0"
+}

@@ -1,0 +1,14 @@
+{
+    "legacy_addon_id": "",
+    "title": "Bear Addon - Pinned Profile Posts",
+    "description": "Addon that will allow users to pin their profile posts",
+    "version_id": 1000010,
+    "version_string": "1.0.0 Alpha",
+    "dev": "Teddy Lee",
+    "dev_url": "",
+    "faq_url": "",
+    "support_url": "",
+    "extra_urls": [],
+    "require": [],
+    "icon": "fa-home"
+}

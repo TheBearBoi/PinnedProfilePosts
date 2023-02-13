@@ -1,0 +1,9 @@
+{
+    "event_id": "entity_structure",
+    "execute_order": 10,
+    "callback_class": "BearAddon\\PinnedProfilePosts\\Listener",
+    "callback_method": "profilePostEntityStructure",
+    "active": true,
+    "hint": "XF\\Entity\\ProfilePost",
+    "description": "Extends the XF\\Entity\\ProfilePost structure"
+}

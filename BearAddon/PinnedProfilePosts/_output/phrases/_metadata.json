@@ -1,0 +1,74 @@
+{
+    "maximum_pinned_profile_posts.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "4e94c552ff93b078172755f24d7eadef"
+    },
+    "option.BearAddonPinnedProfilePostsDisplayOnTooltip.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "7431b5769096d46a4e57be81dd690e32"
+    },
+    "option.BearAddonPinnedProfilePostsMaximumStickyPosts.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "a80a30209fc19e253b63da9eafe3b72b"
+    },
+    "option_explain.BearAddonPinnedProfilePostsDisplayOnTooltip.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "option_explain.BearAddonPinnedProfilePostsMaximumStickyPosts.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "option_group.bearAddonPinnedProfilePost.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "182d45df6bf96d46f71c20637d533a54"
+    },
+    "option_group_description.bearAddonPinnedProfilePost.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "f6fadd8ef254c34d8cf067bd02ea3c89"
+    },
+    "permission.profilePost_BAPPPStickUnstickAny.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "999e64d1a9ae61b236ded612ce498544"
+    },
+    "permission.profilePost_BAPPPStickUnstickOwn.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "3580426fd15064a31571c503318b1424"
+    },
+    "pinned_post.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "b8915883cd9d8ffd22d9603d4a422c09"
+    },
+    "stick_profile_post.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "bf865bdc779ea87d172a8b1e5adc01b8"
+    },
+    "unstick_profile_post.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "aa1dba0d51574175ed21dd9e09feee50"
+    }
+}
